@@ -1,0 +1,27 @@
+aloe-sample: This is a very simple example of how to use aloe to write
+tests that drive a web browser and check for expected results.
+
+The two tests present verify that a web browser can load visit
+google.com, enter a search query, submit the form, and see a result.
+
+To run these steps, you will first need to install aloe-webdriver
+(perhaps in a virtualenv):
+
+	pip install aloe-webdriver
+
+Then run the tests:
+
+	aloe
+
+You should see a web-browser window pop up briefly, and aloe report
+something like:
+
+	Ran 2 tests in 4.675s
+
+	OK
+
+At this point, you can start writing your own tests by adding new
+files to the features directory. See the following documentation for
+many steps which are available to be used:
+
+	http://aloe-webdriver.readthedocs.io/en/latest/index.html
